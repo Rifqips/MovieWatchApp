@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name" translatable="false">MovieApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="streing_streem_it" translatable="false">Streem it</string>
+    <string name="string_title" translatable="false">Siliwangi \n Theater</string>
+    <string name="string_email" translatable="false">Email</string>
+    <string name="string_password" translatable="false">Password</string>
+    <string name="string_image_user" translatable="false">image user</string>
+    <string name="string_next" translatable="false">Next</string>
+    <string name="string_skip">Skip</string>
+    <string name="string_join_now">Join Now</string>
+    <string name="string_main_item">main_item</string>
+    <string name="string_wishlist">Wishlist</string>
+    <string name="string_transaction_history">Transaction History</string>
+    <string name="string_cart">Cart</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="string_dashboard">Dashboard</string>
+    <string name="string_search">Search</string>
+    <string name="string_foto">Foto</string>
+    <string name="string_logout">Logout</string>
+    <string name="string_now_playing">Now Playing</string>
+    <string name="string_popular">Popular</string>
+    <string name="string_explore_more">Explore More</string>
+    <string name="string_buy_now">Buy Now</string>
+    <string name="string_success_added_to_cart">Success Added To Cart</string>
+    <string name="string_detail_movie">Detail Movie</string>
+    <string name="string_sign_in">Sign In</string>
+    <string name="string_sign_up">Sign Up</string>
+    <string name="string_set_up_profile">Set Up Profile</string>
+    <string name="string_create_account">Create account</string>
+    <string name="string_dummy_fullname">Rifqi Padi Siliwangi</string>
+    <string name="string_dummy_email">useremail@gmail.com</string>
+    <string name="strting_your_balance">Your Balance Token</string>
+    <string name="string_dummy_balance">Rp.1000.000</string>
+    <string name="string_cart_list">Cart List</string>
+    <string name="string_dummy_lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</string>
+    <string name="string_synopsis">Synopsis</string>
+    <string name="string_your_name">Your name</string>
+    <string name="string_dummy_content_description">Bienvenido a Movie+\nLorem ipsum dolor sit amet consectetur</string>
+    <string name="string_address">Address</string>
+    <string name="string_save_location">Save Location</string>
+    <string name="string_success_save_location">Success Save Location</string>
+    <string name="string_subscription">Subscription</string>
+    <string name="string_month">Month</string>
+    <string name="string_address_not_found">Address Not Found</string>
+    <string name="string_somethind_went_wrong_from_geocoding">Somethind went wrong from geocoding: %1$s</string>
+    <string name="string_my_location">My Location</string>
+    <string name="string_gps_is_disabled_enable_gps_in_the_device_settings_to_use_this_feature">GPS is disabled. Enable GPS in the device settings to use this feature.</string>
+    <string name="string_settings">Settings</string>
+    <string name="string_cancel">Cancel</string>
+    <string name="string_real_location_not_found">Real Location not found</string>
+    <string name="string_failed_register">Failed Register</string>
+    <string name="string_screenname">screenName</string>
+    <string name="string_choose_a_picture">Choose a Picture</string>
+    <string name="string_title_corousel_one">Your Gateway to Endless Entertainment!</string>
+    <string name="string_title_corousel_two">Your Personalized Entertainment Destination Awaits!</string>
+    <string name="string_title_corousel_three">Where Every Moment Sparks Joy!</string>
+    <string name="string_description_one">Join the Vidio community and unlock a universe</string>
+    <string name="string_description_two">"Welcome to Vidio, where entertainment "</string>
+    <string name="string_description_three">Enter a realm of boundless entertainment with Vidio! Immerse !</string>
+    <string name="string_success_added_wishlist">Success Added Wishlist</string>
+    <string name="string_delete">Delete</string>
+    <string name="string_top_up">Top Up</string>
+    <string name="string_dummy_currency_rp" translatable="false">Rp.</string>
+    <string name="string_enter_amount" translatable="false">Enter Amount Token</string>
+    <string name="string_empty_saldo" translatable="false">Empty Saldo</string>
+    <string name="string_search_movie">Search Movie</string>
+    <string name="string_your_profile">Your Profile</string>
+    <string name="string_en">En</string>
+    <string name="string_id">Id</string>
+    <string name="string_notification">Notification</string>
+    <string name="string_dummy_waktu">22:00</string>
+    <string name="string_info">Information</string>
+    <string name="string_transaksi_berhasil">Payment Succes</string>
+    <string name="dummy_notif">158 / 5,000 Translation results Translation result Your transaction is being processed by the seller, please wait for the next update in the application. While waiting, you can look for other items first</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="string_total">Total</string>
+    <string name="string_success_payment">Success Payment</string>
+    <string name="string_not_enough_token">Not enough token</string>
+    <string name="string_add_all">Add All</string>
+    <string name="string_checkout">Checkout</string>
+    <string name="string_username_is_empty">Username is empty</string>
+    <string name="string_email_is_empty">Email is empty</string>
+    <string name="string_location_is_empty">Location is empty</string>
+    <string name="string_helper_password">Minimum 8 characters &amp; unique character</string>
+    <string name="string_helper_email">Example: test@gmail.com</string>
+    <string name="string_email_tidak_valid">Email Is Not Valid</string>
+    <string name="string_password_tidak_valid">Password Is Not Valid</string>
+    <string name="string_failed_login">Failed Login</string>
+
+
+</resources>

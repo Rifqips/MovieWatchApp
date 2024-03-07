@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_top_up"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/custom_rounded_top_up">
+
+    <ImageView
+        android:id="@+id/iv_money"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_result_token"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:textColor="@color/colorWhite"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:textAlignment="center"
+        android:maxLines="2"
+        android:textColor="@color/colorWhite"
+        android:textSize="10sp" />
+
+</LinearLayout>

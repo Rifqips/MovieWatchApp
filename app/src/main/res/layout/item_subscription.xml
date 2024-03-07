@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    app:cardCornerRadius="10dp"
+    android:padding="10dp"
+    android:backgroundTint="@android:color/transparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <CheckBox
+        android:id="@+id/cb_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_token"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintTop_toTopOf="@+id/cb_item"
+        app:layout_constraintBottom_toBottomOf="@+id/cb_item"
+        app:layout_constraintStart_toEndOf="@+id/cb_item"/>
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintTop_toTopOf="@+id/tv_token"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_token"
+        app:layout_constraintStart_toEndOf="@+id/tv_token"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "663794963323",
+    "project_id": "movie-phincon",
+    "storage_bucket": "movie-phincon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663794963323:android:aa96cac5e269f3aa6663de",
+        "android_client_info": {
+          "package_name": "id.rifqipadisiliwangi.movieapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXgcfgHxcAB4_86XL7VfESeVCfxzoE5CY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

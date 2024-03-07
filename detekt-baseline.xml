@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>EmptyFunctionBlock:CameraFragment.kt$CameraFragment.&lt;no name provided&gt;${}</ID>
+    <ID>EmptyFunctionBlock:DetailFragment.kt$DetailFragment${}</ID>
+    <ID>EmptyFunctionBlock:NotificationFragment.kt$NotificationFragment${}</ID>
+    <ID>EmptyFunctionBlock:OnboardingFragment.kt$OnboardingFragment${}</ID>
+    <ID>ExplicitItLambdaParameter:HistoryFragment.kt$HistoryFragment${ it -&gt; binding.rvTransaction.apply { layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false) adapter = adapterTransaction adapterTransaction.setlistWishlist(it) } }</ID>
+    <ID>ExplicitItLambdaParameter:WishlistFragment.kt$WishlistFragment${ it -&gt; binding.rvWishlit.apply { layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false) adapter = adapterWishlist adapterWishlist.setlistWishlist(it) } }</ID>
+    <ID>LongParameterList:CartViewModel.kt$CartViewModel$( id: Int, backdropPath: String, originalLanguage: String, originalTitle: String, overview: String, popularity: String, posterPath: String, releaseDate: String, isChecked: Boolean )</ID>
+    <ID>LongParameterList:DetailFragment.kt$DetailFragment$( id: Int, backdropPath: String, originalLanguage: String, originalTitle: String, overview: String, popularity: Double, posterPath: String, releaseDate: String, isChecked: Boolean )</ID>
+    <ID>LongParameterList:DetailFragment.kt$DetailFragment$( id: Int, backdropPath: String, originalLanguage: String, originalTitle: String, overview: String, popularity: String, posterPath: String, releaseDate: String, isChecked: Boolean )</ID>
+    <ID>LongParameterList:NotificationViewModel.kt$NotificationViewModel$( notifId: Int, notifType: String, notifTitle: String, notifBody: String, notifDate: String, notifTime: String, notifImage: String, isChecked: Boolean )</ID>
+    <ID>LongParameterList:WishListViewModel.kt$WishListViewModel$( id: Int, backdropPath: String, originalLanguage: String, originalTitle: String, overview: String, popularity: Double, posterPath: String, releaseDate: String, isChecked: Boolean, )</ID>
+    <ID>MagicNumber:CameraFragment.kt$CameraFragment$1280</ID>
+    <ID>MagicNumber:CameraFragment.kt$CameraFragment$720</ID>
+    <ID>MagicNumber:CartFragment.kt$CartFragment$1000</ID>
+    <ID>MagicNumber:Constant.kt$Constant$2000</ID>
+    <ID>MagicNumber:Constant.kt$Constant$80</ID>
+    <ID>MagicNumber:HistoryFragment.kt$HistoryFragment$1000</ID>
+    <ID>MagicNumber:HomeFragment.kt$HomeFragment$0.14f</ID>
+    <ID>MagicNumber:HomeFragment.kt$HomeFragment$0.85f</ID>
+    <ID>MagicNumber:HomeFragment.kt$HomeFragment$1000</ID>
+    <ID>MagicNumber:HomeFragment.kt$HomeFragment$2000</ID>
+    <ID>MagicNumber:HomeFragment.kt$HomeFragment$3</ID>
+    <ID>MagicNumber:HomeFragment.kt$HomeFragment$40</ID>
+    <ID>MagicNumber:HomeFragment.kt$HomeFragment.&lt;no name provided&gt;$2000</ID>
+    <ID>MagicNumber:HomeFragment.kt$HomeFragment.&lt;no name provided&gt;$3</ID>
+    <ID>MagicNumber:LoginFragment.kt$LoginFragment$5</ID>
+    <ID>MagicNumber:MapFragment.kt$MapFragment$0.7893</ID>
+    <ID>MagicNumber:MapFragment.kt$MapFragment$113.9213</ID>
+    <ID>MagicNumber:MapFragment.kt$MapFragment$12f</ID>
+    <ID>MagicNumber:MapFragment.kt$MapFragment$5f</ID>
+    <ID>MagicNumber:NotificationFragment.kt$NotificationFragment$1000</ID>
+    <ID>MagicNumber:PaymentFragment.kt$PaymentFragment$36500.0</ID>
+    <ID>MagicNumber:ProfileFragment.kt$ProfileFragment$2000</ID>
+    <ID>MagicNumber:RegisterFragment.kt$RegisterFragment$5</ID>
+    <ID>MagicNumber:SearchFragment.kt$SearchFragment$1000</ID>
+    <ID>MagicNumber:SplashFragment.kt$SplashFragment$2000</ID>
+    <ID>MagicNumber:TopUpFragment.kt$TopUpFragment$3</ID>
+    <ID>MagicNumber:WishlistFragment.kt$WishlistFragment$1000</ID>
+    <ID>MaxLineLength:CartViewModel.kt$CartViewModel$interactor.addCartList(id,backdropPath, originalLanguage, originalTitle, overview, popularity, posterPath,releaseDate, isChecked)</ID>
+    <ID>MaxLineLength:CartViewModel.kt$CartViewModel$interactor.addTransaction(id,backdropPath, originalLanguage, originalTitle, overview, popularity, posterPath,releaseDate, isChecked)</ID>
+    <ID>MaxLineLength:CheckoutFragment.kt$CheckoutFragment$bun.apply { putString(resources.getString(R.string.string_screenname), resources.getString(R.string.string_checkout)) }</ID>
+    <ID>MaxLineLength:DetailFragment.kt$DetailFragment$addCart(detail.id, detail.backdropPath, detail.originalLanguage, detail.originalTitle, detail.overview, binding.tvPopularity.text.toString(), detail.posterPath, detail.releaseDate, false)</ID>
+    <ID>MaxLineLength:DetailFragment.kt$DetailFragment$addCart(detail.id, detail.backdropPath, detail.originalLanguage, detail.originalTitle, detail.overview, detail.voteCount.toString(), detail.posterPath, detail.releaseDate, false)</ID>
+    <ID>MaxLineLength:DetailFragment.kt$DetailFragment$addWishlist(detail.id, detail.backdropPath, detail.originalLanguage, detail.originalTitle, detail.overview, binding.tvPopularity.text.toString().toInt().toDouble(), detail.posterPath, detail.releaseDate, false)</ID>
+    <ID>MaxLineLength:DetailFragment.kt$DetailFragment$addWishlist(detail.id, detail.backdropPath, detail.originalLanguage, detail.originalTitle, detail.overview, detail.voteCount.toString().toInt().toDouble(), detail.posterPath, detail.releaseDate, false)</ID>
+    <ID>MaxLineLength:DetailFragment.kt$DetailFragment$bun.apply { putString(resources.getString(R.string.string_screenname), resources.getString(R.string.string_detail_movie)) }</ID>
+    <ID>MaxLineLength:DetailFragment.kt$DetailFragment$it1</ID>
+    <ID>MaxLineLength:DetailFragment.kt$DetailFragment$viewModel.addCart(id, backdropPath, originalLanguage, originalTitle, overview, popularity, posterPath, releaseDate, isChecked)</ID>
+    <ID>MaxLineLength:DetailFragment.kt$DetailFragment$viewModelWishlist.addWishlist(id, backdropPath, originalLanguage, originalTitle, overview, popularity, posterPath, releaseDate, isChecked)</ID>
+    <ID>MaxLineLength:HomeFragment.kt$HomeFragment$CorouselDataItem(COROUSEL_ONE, resources.getString(R.string.string_title_corousel_one), resources.getString(R.string.string_description_one))</ID>
+    <ID>MaxLineLength:HomeFragment.kt$HomeFragment$CorouselDataItem(COROUSEL_THREE, resources.getString(R.string.string_title_corousel_three), resources.getString(R.string.string_description_three))</ID>
+    <ID>MaxLineLength:HomeFragment.kt$HomeFragment$CorouselDataItem(COROUSEL_TWO, resources.getString(R.string.string_title_corousel_two), resources.getString(R.string.string_description_two))</ID>
+    <ID>MaxLineLength:HomeFragment.kt$HomeFragment$R.id.cart_item -&gt; activity?.supportFragmentManager?.findFragmentById(R.id.container_navigation)?.findNavController()?.navigate(R.id.action_homeFragment_to_cartFragment)</ID>
+    <ID>MaxLineLength:HomeFragment.kt$HomeFragment$R.id.history_item -&gt; activity?.supportFragmentManager?.findFragmentById(R.id.container_navigation)?.findNavController()?.navigate(R.id.action_homeFragment_to_historyFragment)</ID>
+    <ID>MaxLineLength:HomeFragment.kt$HomeFragment$R.id.notification_item -&gt; activity?.supportFragmentManager?.findFragmentById(R.id.container_navigation)?.findNavController()?.navigate(R.id.action_homeFragment_to_notificationFragment)</ID>
+    <ID>MaxLineLength:HomeFragment.kt$HomeFragment$R.id.wishlist_item -&gt; activity?.supportFragmentManager?.findFragmentById(R.id.container_navigation)?.findNavController()?.navigate(R.id.action_homeFragment_to_wishlistFragment)</ID>
+    <ID>MaxLineLength:HomeFragment.kt$HomeFragment$activity?.supportFragmentManager?.findFragmentById(R.id.container_navigation)?.findNavController()?.navigate(R.id.action_homeFragment_to_detailFragment, bundle)</ID>
+    <ID>MaxLineLength:HomeFragment.kt$HomeFragment$adapterNowPlaying.addLoadStateListener { loadState -&gt; with(binding){ rvNowPlaying.isInvisible = loadState.refresh is LoadState.Loading } }</ID>
+    <ID>MaxLineLength:MapFragment.kt$MapFragment$Toast.makeText(context,resources.getString(R.string.string_real_location_not_found), Toast.LENGTH_SHORT).show()</ID>
+    <ID>MaxLineLength:MapFragment.kt$MapFragment$dialogBuilder.setMessage(resources.getString(R.string.string_gps_is_disabled_enable_gps_in_the_device_settings_to_use_this_feature))</ID>
+    <ID>MaxLineLength:MapFragment.kt$MapFragment$marker = googleMap.addMarker(MarkerOptions().position(latLng).title(resources.getString(R.string.string_my_location)))</ID>
+    <ID>MaxLineLength:MyFirebaseMessagingService.kt$MyFirebaseMessagingService$model = ViewModelProvider.AndroidViewModelFactory.getInstance(application).create(NotificationViewModel::class.java)</ID>
+    <ID>MaxLineLength:NotificationFragment.kt$NotificationFragment$class</ID>
+    <ID>MaxLineLength:OnboardingFragment.kt$OnboardingFragment$OnboardingDataItem("https://getwallpapers.com/wallpaper/full/1/8/7/109525.jpg","Your Personalized Entertainment Destination Awaits!","Welcome to Vidio, where entertainment meets personalization! Experience the thrill of discovering new favorites tailored just for you. Whether it's the latest dramas, live sports, or original series, Vidio has something for everyone. With user-friendly features and a vast library of content, your entertainment journey begins here. Let Vidio be your guide to a world of endless excitement!")</ID>
+    <ID>MaxLineLength:OnboardingFragment.kt$OnboardingFragment$OnboardingDataItem("https://getwallpapers.com/wallpaper/full/a/b/e/75026.jpg","Get Started with Vidio: Your Gateway to Endless Entertainment!","Join the Vidio community and unlock a universe of entertainment possibilities! Discover a diverse range of content, from trending series to blockbuster movies, all at your fingertips. With seamless streaming and personalized recommendations, Vidio ensures that every moment is filled with excitement. Start your journey now and immerse yourself in the ultimate viewing experience!")</ID>
+    <ID>MaxLineLength:OnboardingFragment.kt$OnboardingFragment$OnboardingDataItem("https://getwallpapers.com/wallpaper/full/c/a/9/75047.jpg","Step into the World of Vidio: Where Every Moment Sparks Joy!","Enter a realm of boundless entertainment with Vidio! Immerse yourself in captivating shows, blockbuster movies, and exclusive content that will keep you entertained for hours on end. With intuitive features and seamless navigation, Vidio ensures that every experience is delightful and unforgettable. Start exploring today and let Vidio brighten your days with excitement and joy!")</ID>
+    <ID>MaxLineLength:OnboardingFragment.kt$OnboardingFragment$binding.ivBackgroundOnboarding.load("https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?w=900&amp;t=st=1709105083~exp=1709105683~hmac=82a5b42ce1b9c91f23754e83776de8c46466f0ac8570348325b7f64ff6a02b34")</ID>
+    <ID>MaxLineLength:OnboardingFragment.kt$OnboardingFragment$class</ID>
+    <ID>MaxLineLength:PaymentFragment.kt$PaymentFragment$Toast.makeText(context, "Transaction Failed. ID: " + transactionResult.transactionId, Toast.LENGTH_LONG).show()</ID>
+    <ID>MaxLineLength:PaymentFragment.kt$PaymentFragment$Toast.makeText(context, "Transaction Finished. ID: " + transactionResult.transactionId, Toast.LENGTH_LONG).show()</ID>
+    <ID>MaxLineLength:PaymentFragment.kt$PaymentFragment$Toast.makeText(context, "Transaction ID: " + transactionResult.transactionId + ". Message: " + transactionResult.status, Toast.LENGTH_LONG).show()</ID>
+    <ID>MaxLineLength:PaymentFragment.kt$PaymentFragment$Toast.makeText(context, "Transaction Invalid. ID: " + transactionResult.transactionId, Toast.LENGTH_LONG).show()</ID>
+    <ID>MaxLineLength:PaymentFragment.kt$PaymentFragment$Toast.makeText(context, "Transaction Pending. ID: " + transactionResult.transactionId, Toast.LENGTH_LONG).show()</ID>
+    <ID>MaxLineLength:PaymentFragment.kt$PaymentFragment$val transactionResult = it.getParcelableExtra&lt;TransactionResult&gt;(UiKitConstants.KEY_TRANSACTION_RESULT)</ID>
+    <ID>MaxLineLength:SearchFragment.kt$SearchFragment$activity?.supportFragmentManager?.findFragmentById(R.id.container_navigation)?.findNavController()?.navigate(R.id.action_searchFragment_to_detailFragment, bundle)</ID>
+    <ID>MaxLineLength:SearchFragment.kt$SearchFragment$adapterSearch.addLoadStateListener { loadState -&gt; with(binding){ rvSearchItem.isInvisible = loadState.refresh is LoadState.Loading } }</ID>
+    <ID>MaxLineLength:SplashFragment.kt$SplashFragment$binding.ivBackgroundSplash.load("https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?w=900&amp;t=st=1709105083~exp=1709105683~hmac=82a5b42ce1b9c91f23754e83776de8c46466f0ac8570348325b7f64ff6a02b34")</ID>
+    <ID>MaxLineLength:TopUpAdapter.kt$TopUpAdapter.&lt;no name provided&gt;$override</ID>
+    <ID>MaxLineLength:WishListViewModel.kt$WishListViewModel$interactor.addWishlist(id, backdropPath, originalLanguage, originalTitle, overview, popularity, posterPath, releaseDate, isChecked)</ID>
+    <ID>MaxLineLength:WishlistFragment.kt$WishlistFragment$activity?.supportFragmentManager?.findFragmentById(R.id.container_navigation)?.findNavController()?.navigate(R.id.action_wishlistFragment_to_detailFragment, bundle)</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val API_KEY_MOVIE_DB = "51d4336c22284544f84ccdd06444cf17"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val CART_DETAIL = "cart_detail"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val COROUSEL_ONE = "https://wallpaperaccess.com/full/2052704.jpg"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val COROUSEL_THREE = "https://getwallpapers.com/wallpaper/full/c/a/9/75047.jpg"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val COROUSEL_TWO = "https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val DELAYED = 2000</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val IMAGE_FORMAT = "image/*"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val IMAGE_PARSE = "image_parse"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val MOVIE_POPULAR = "movie_popular"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val NOW_PLAYING = "now_playing"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val REAL_LOCATION = "real_location"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val REGISTER_PARSE = "register_parse"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val SEARCH = "search"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val TMDb_BACKDROP_PATH = "https://image.tmdb.org/t/p/w500_and_h282_face"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val WISHLIST_DETAIL = "wishlist_detail"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val description_result = "description_result"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val en = "en"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val id_result = "id_result"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val idn = "in"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val img_result = "img_result"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val lang_request = "en-US"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val original_result = "original_result"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val original_title_result = "original_title_result"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val poster_result = "poster_result"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val release_date_result = "release_date_result"</ID>
+    <ID>MayBeConst:Constant.kt$Constant$val token_result = "token_result"</ID>
+    <ID>MayBeConst:ProfileFragment.kt$ProfileFragment.Companion$private val REQUEST_CODE_GALLERY = 999</ID>
+    <ID>NewLineAtEndOfFile:AdapterLayoutMode.kt$id.rifqipadisiliwangi.movieapp.utils.AdapterLayoutMode.kt</ID>
+    <ID>NewLineAtEndOfFile:AdapterNowPlaying.kt$id.rifqipadisiliwangi.movieapp.presentation.common.adapter.nowplaying.AdapterNowPlaying.kt</ID>
+    <ID>NewLineAtEndOfFile:AdapterPagingItem.kt$id.rifqipadisiliwangi.movieapp.presentation.common.adapter.popular.AdapterPagingItem.kt</ID>
+    <ID>NewLineAtEndOfFile:AdapterSearchItem.kt$id.rifqipadisiliwangi.movieapp.presentation.common.adapter.search.AdapterSearchItem.kt</ID>
+    <ID>NewLineAtEndOfFile:App.kt$id.rifqipadisiliwangi.movieapp.App.kt</ID>
+    <ID>NewLineAtEndOfFile:CartAdapter.kt$id.rifqipadisiliwangi.movieapp.presentation.common.adapter.cart.CartAdapter.kt</ID>
+    <ID>NewLineAtEndOfFile:CheckoutAdapter.kt$id.rifqipadisiliwangi.movieapp.presentation.common.adapter.checkout.CheckoutAdapter.kt</ID>
+    <ID>NewLineAtEndOfFile:CheckoutFragment.kt$id.rifqipadisiliwangi.movieapp.presentation.feature.checkout.CheckoutFragment.kt</ID>
+    <ID>NewLineAtEndOfFile:Constant.kt$id.rifqipadisiliwangi.movieapp.utils.Constant.kt</ID>
+    <ID>NewLineAtEndOfFile:CorouselAdapter.kt$id.rifqipadisiliwangi.movieapp.presentation.common.adapter.corousel.CorouselAdapter.kt</ID>
+    <ID>NewLineAtEndOfFile:DetailFragment.kt$id.rifqipadisiliwangi.movieapp.presentation.feature.detail.DetailFragment.kt</ID>
+    <ID>NewLineAtEndOfFile:ExampleUnitTest.kt$id.rifqipadisiliwangi.movieapp.ExampleUnitTest.kt</ID>
+    <ID>NewLineAtEndOfFile:HistoryFragment.kt$id.rifqipadisiliwangi.movieapp.presentation.feature.history.HistoryFragment.kt</ID>
+    <ID>NewLineAtEndOfFile:HomeFragment.kt$id.rifqipadisiliwangi.movieapp.presentation.feature.home.HomeFragment.kt</ID>
+    <ID>NewLineAtEndOfFile:HomeViewModel.kt$id.rifqipadisiliwangi.movieapp.presentation.common.viewmodel.home.HomeViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:LoadStateAdapterNowPlaying.kt$id.rifqipadisiliwangi.movieapp.presentation.common.adapter.load.LoadStateAdapterNowPlaying.kt</ID>
+    <ID>NewLineAtEndOfFile:LocalizationUtil.kt$id.rifqipadisiliwangi.movieapp.utils.LocalizationUtil.kt</ID>
+    <ID>NewLineAtEndOfFile:MainActivity.kt$id.rifqipadisiliwangi.movieapp.presentation.MainActivity.kt</ID>
+    <ID>NewLineAtEndOfFile:MainDispatchersRule.kt$id.rifqipadisiliwangi.movieapp.utils.MainDispatchersRule.kt</ID>
+    <ID>NewLineAtEndOfFile:NotificationAdapterItem.kt$id.rifqipadisiliwangi.movieapp.presentation.common.adapter.notification.NotificationAdapterItem.kt</ID>
+    <ID>NewLineAtEndOfFile:NotificationFragment.kt$id.rifqipadisiliwangi.movieapp.presentation.feature.notification.NotificationFragment.kt</ID>
+    <ID>NewLineAtEndOfFile:NotificationViewModel.kt$id.rifqipadisiliwangi.movieapp.presentation.common.viewmodel.notification.NotificationViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:OnboardingAdapter.kt$id.rifqipadisiliwangi.movieapp.presentation.common.adapter.onboarding.OnboardingAdapter.kt</ID>
+    <ID>NewLineAtEndOfFile:PaymentFragment.kt$id.rifqipadisiliwangi.movieapp.presentation.feature.payment.PaymentFragment.kt</ID>
+    <ID>NewLineAtEndOfFile:PreloginViewModel.kt$id.rifqipadisiliwangi.movieapp.presentation.common.viewmodel.prelogin.PreloginViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:PreloginViewModelTest.kt$id.rifqipadisiliwangi.movieapp.presentation.common.viewmodel.prelogin.PreloginViewModelTest.kt</ID>
+    <ID>NewLineAtEndOfFile:ProfileFragment.kt$id.rifqipadisiliwangi.movieapp.presentation.feature.profile.ProfileFragment.kt</ID>
+    <ID>NewLineAtEndOfFile:RegisterFragment.kt$id.rifqipadisiliwangi.movieapp.presentation.feature.register.RegisterFragment.kt</ID>
+    <ID>NewLineAtEndOfFile:SearchFragment.kt$id.rifqipadisiliwangi.movieapp.presentation.feature.search.SearchFragment.kt</ID>
+    <ID>NewLineAtEndOfFile:SearchViewModel.kt$id.rifqipadisiliwangi.movieapp.presentation.common.viewmodel.search.SearchViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:SettingFragment.kt$id.rifqipadisiliwangi.movieapp.presentation.feature.setting.SettingFragment.kt</ID>
+    <ID>NewLineAtEndOfFile:SplashFragment.kt$id.rifqipadisiliwangi.movieapp.presentation.feature.splash.SplashFragment.kt</ID>
+    <ID>NewLineAtEndOfFile:TopUpAdapter.kt$id.rifqipadisiliwangi.movieapp.presentation.common.adapter.topup.TopUpAdapter.kt</ID>
+    <ID>NewLineAtEndOfFile:TopUpFragment.kt$id.rifqipadisiliwangi.movieapp.presentation.feature.topup.TopUpFragment.kt</ID>
+    <ID>NewLineAtEndOfFile:TopUpViewModel.kt$id.rifqipadisiliwangi.movieapp.presentation.common.viewmodel.topup.TopUpViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:TransactionAdapter.kt$id.rifqipadisiliwangi.movieapp.presentation.common.adapter.transaction.TransactionAdapter.kt</ID>
+    <ID>NewLineAtEndOfFile:ViewHolderBinder.kt$id.rifqipadisiliwangi.movieapp.presentation.common.adapter.ViewHolderBinder.kt</ID>
+    <ID>NewLineAtEndOfFile:WishListViewModel.kt$id.rifqipadisiliwangi.movieapp.presentation.common.viewmodel.wishlist.WishListViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:WishlistAdapter.kt$id.rifqipadisiliwangi.movieapp.presentation.common.adapter.wishlist.WishlistAdapter.kt</ID>
+    <ID>NewLineAtEndOfFile:WishlistFragment.kt$id.rifqipadisiliwangi.movieapp.presentation.feature.wishlist.WishlistFragment.kt</ID>
+    <ID>PrintStackTrace:MapFragment.kt$MapFragment$e</ID>
+    <ID>SwallowedException:HomeFragment.kt$HomeFragment$e: ActivityNotFoundException</ID>
+    <ID>TooManyFunctions:CartViewModel.kt$CartViewModel : ViewModel</ID>
+    <ID>TooManyFunctions:DetailFragment.kt$DetailFragment : BaseFragment</ID>
+    <ID>TooManyFunctions:HomeFragment.kt$HomeFragment : BaseFragment</ID>
+    <ID>TooManyFunctions:MapFragment.kt$MapFragment : FragmentOnMapReadyCallbackOnMarkerClickListenerOnMapClickListener</ID>
+    <ID>UnusedPrivateMember:PaymentFragment.kt$PaymentFragment$private fun initTransactionDetails() : SnapTransactionDetail</ID>
+    <ID>UnusedPrivateProperty:CartFragment.kt$CartFragment$val result = it.toInt() - resultPrice</ID>
+    <ID>UnusedPrivateProperty:CheckoutFragment.kt$CheckoutFragment$private var items: ListCheckout = ListCheckout(emptyList())</ID>
+    <ID>UnusedPrivateProperty:PaymentFragment.kt$PaymentFragment$private var customerDetails = CustomerDetails( firstName = "user fullname", customerIdentifier = "mail@mail.com", email = "mail@mail.com", phone = "085310102020" )</ID>
+    <ID>UnusedPrivateProperty:PaymentFragment.kt$PaymentFragment$private var itemDetails = listOf(ItemDetails("test-01", 36500.0, 1, "test01"))</ID>
+    <ID>UnusedPrivateProperty:TransactionAdapter.kt$TransactionAdapter$private val viewModel : CartViewModel</ID>
+    <ID>WildcardImport:PaymentFragment.kt$import com.midtrans.sdk.uikit.api.model.*</ID>
+    <ID>WildcardImport:PreloginViewModelTest.kt$import org.junit.Assert.*</ID>
+  </CurrentIssues>
+</SmellBaseline>

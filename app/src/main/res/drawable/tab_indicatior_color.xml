@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- UNSELECTED TAB STATE -->
+    <item
+        android:state_selected="true">
+        <layer-list>
+            <!-- Bottom indicator color for the UNSELECTED tab state -->
+            <item>
+                <shape
+                    android:shape="oval">
+                    <solid android:color="@color/colorYellow"/> <!-- Customize the bullet color if needed -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item
+        android:state_selected="false">
+        <layer-list>
+            <!-- Bottom indicator color for the UNSELECTED tab state -->
+            <item>
+                <shape
+                    android:shape="oval">
+                    <solid android:color="@color/colorOffWhite"/> <!-- Customize the bullet color if needed -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

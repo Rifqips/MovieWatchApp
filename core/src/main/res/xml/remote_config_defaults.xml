@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaults>
+  <entry>
+    <key>list_payment</key>
+    <value>[{"token": 200,"price": 30000},{"token": 500,"price": 75000},{"token": 700,"price": 100000},{"token": 1000,"price": 145000},{"token": 1200,"price": 175000},{"token": 1500,"price": 220000}]</value>
+  </entry>
+</defaults>

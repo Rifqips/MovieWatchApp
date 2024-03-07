@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDark"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".presentation.feature.register.RegisterFragment">
+
+    <ImageView
+        android:id="@+id/iv_background_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/tv_title_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        tools:text="@string/string_sign_up"
+        android:textSize="24sp"
+        android:layout_marginVertical="26dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/colorOffWhite"
+        android:letterSpacing="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/et_email_input_register"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_email_input_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        android:layout_marginHorizontal="16dp"
+        app:boxStrokeColor="@color/colorBlueGray"
+        app:boxBackgroundColor="@color/colorBlueGray"
+        app:hintTextColor="@color/colorYellow"
+        app:helperTextEnabled="true"
+        app:errorEnabled="true"
+        tools:helperText="@string/string_helper_email"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="@string/string_email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_email_edit_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress|textNoSuggestions"
+            android:textColorHint="@color/colorDark"
+            android:textColor="@color/colorDark"
+            android:fontFamily="@font/poppins"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_password_input_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        android:layout_marginHorizontal="16dp"
+        app:boxStrokeColor="@color/colorBlueGray"
+        app:boxBackgroundColor="@color/colorBlueGray"
+        app:helperTextEnabled="true"
+        app:endIconMode="password_toggle"
+        tools:helperText="@string/string_helper_password"
+        app:layout_constraintTop_toBottomOf="@+id/et_email_input_register"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="@string/string_password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_password_edit_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:textColorHint="@color/colorDark"
+            android:textColor="@color/colorDark"
+            android:inputType="textPassword"
+            android:fontFamily="@font/poppins"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_address"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        app:cardCornerRadius="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/et_password_input_register"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:background="@color/colorBlueGray">
+
+            <ImageView
+                android:id="@+id/iv_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_location"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+            
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:hint="@string/string_address"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/colorDark"
+                android:textColorHint="@color/colorGray"
+                app:layout_constraintStart_toEndOf="@+id/iv_location"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/iv_location"/>
+
+            
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        
+        
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="@string/string_sign_up"
+        android:textAllCaps="false"
+        style="@style/MyButtonStyle"
+        android:padding="16dp"
+        android:backgroundTint="@color/colorYellow"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="@font/londrina_solid"
+        android:letterSpacing="0.3"
+        app:layout_constraintTop_toBottomOf="@id/cv_address"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="24dp"/>
+
+    <View
+        android:id="@+id/divider_view_one"
+        android:layout_width="80dp"
+        android:layout_height="1dp"
+        android:background="@color/colorYellow"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_sign_in"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_sign_in"/>
+
+    <TextView
+        android:id="@+id/tv_sign_in"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        tools:text="@string/string_sign_in"
+        android:fontFamily="@font/londrina_solid"
+        android:letterSpacing="0.3"
+        android:layout_marginVertical="16dp"
+        android:textColor="@color/colorOffWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sign_up"/>
+
+    <View
+        android:id="@+id/divider_view_two"
+        android:layout_width="80dp"
+        android:layout_height="1dp"
+        android:background="@color/colorYellow"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toTopOf="@+id/tv_sign_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_sign_in"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
